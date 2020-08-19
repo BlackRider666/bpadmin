@@ -1,6 +1,8 @@
 {
     "name": "black-paradise/admin",
     "description": "BPAdmin",
+    "type": "project",
+    "license": "MIT",
     "authors": [
         {
             "name": "Vladuslav Manzhos",
@@ -15,6 +17,5 @@
         "psr-4": {
             "BlackParadise\\Admin\\": "src/"
         }
-    },
-    "license": "MIT"
+    }
 }
