@@ -5,7 +5,7 @@ namespace BlackParadise\Admin;
 
 use Illuminate\Support\ServiceProvider;
 
-class DashboardServiceProvider extends ServiceProvider {
+class DashboardServiceProvider extends ServiceProvider
 {
     protected $configPath = 'black-paradise.config';
     /**
