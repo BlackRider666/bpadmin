@@ -17,5 +17,12 @@
         "psr-4": {
             "BlackParadise\\Admin\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webmagic\\Dashboard\\DashboardServiceProvider"
+            ]
+        }
     }
 }
