@@ -1,0 +1,15 @@
+{
+    "name": "black-paradise/admin",
+    "description": "BPAdmin",
+    "authors": [
+        {
+            "name": "Vladuslav Manzhos",
+            "email": "loverider2012@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "6.0.*"
+    },
+    "license": "MIT"
+}
