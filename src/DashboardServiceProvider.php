@@ -3,7 +3,6 @@
 
 namespace BlackParadise\Admin;
 
-
 use Illuminate\Support\ServiceProvider;
 use PackageVersions\Versions;
 use Illuminate\Contracts\Http\Kernel;
