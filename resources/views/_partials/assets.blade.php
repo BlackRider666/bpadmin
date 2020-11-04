@@ -1,2 +1,2 @@
-<link rel="stylesheet" media="screen, print" href="{{asset('css/vendors.bundle.css')}}">
-<link rel="stylesheet" media="screen, print" href="{{asset('css/app.bundle.css')}}">
+<link rel="stylesheet" media="screen, print" href="{{asset('bpadmin/css/vendors.bundle.css')}}">
+<link rel="stylesheet" media="screen, print" href="{{asset('bpadmin/css/app.bundle.css')}}">

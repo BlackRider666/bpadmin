@@ -8,8 +8,6 @@ return [
     |--------------------------------------------------------------------------
     |
     */
-    'add'                 => 'Add new',
-
     'login_page'           => [
         'description'  => 'Sign in to start your session',
         'forgot_pass'  => 'I forgot my password',
@@ -25,5 +23,17 @@ return [
     'forms'                => [
         'submit' => 'Submit',
         'clear'  => 'Clear',
+        'results_for'    =>  'Results for',
+        'search'        =>  'Search',
+        'search_placeholder'    =>  'Search anything...',
+        'options'               =>  'Options'
     ],
+    'titles'    =>  [
+        'create'    =>  'Create',
+        'edit'      =>  'Edit',
+    ],
+    'welcome'   =>  [
+        'title' =>  'Welcome',
+        'desc'          =>  'This is simple description to welcome page.'
+    ]
 ];

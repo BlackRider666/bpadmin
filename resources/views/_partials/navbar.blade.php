@@ -35,12 +35,20 @@
         @endif
         <ul id="js-nav-menu" class="nav-menu">
             <li class="nav-title">Dashboard</li>
-            <li class="{{request()->is('admin/*')|| request()->is('admin')?'active':''}}">
+            <li class="{{request()->is('admin')?'active':''}}">
                 <a href="{{route('bpadmin.pages.index')}}" title="Dashboard">
-                    <i class="fal fa-users"></i>
-                    <span class="nav-link-text">Users</span>
+                    <i class="fal fa-chart-line"></i>
+                    <span class="nav-link-text">Main</span>
                 </a>
             </li>
+            @foreach(config('bpadmin.entities') as $key => $entity)
+                <li class="{{request()->is('admin/'.$key.'/*')|| request()->is('admin/'.$key)?'active':''}}">
+                    <a href="{{url('/admin/'.$key)}}" title="ucfirst($key)">
+                        <i class="fal {{$entity['icon']}}"></i>
+                        <span class="nav-link-text">{{ucfirst($key)}}</span>
+                    </a>
+                </li>
+            @endforeach
         </ul>
     </nav>
 </aside>
